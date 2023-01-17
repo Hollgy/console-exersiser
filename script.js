@@ -1,27 +1,45 @@
 import { question } from 'readline-sync'
 
 
+// -------------------------------------------------
+// UPPGIFT 6A
+
+let text = ''
+for( let i=0; i<6; i++ ) {
+    for( let j=0; j<8; j++ ) {
+        if( (i + j) % 4 === 1)
+            text += '#'
+        else
+            text += '.'
+    }
+    text += '\n';
+}
+console.log(text);
+
+
+
+
 
 // -------------------------------------------------
-// UPPGIFT 5:5
-const number = Number(question("Enter a number: "));
 
-//check if the number is even
-while(number > 2 ){
-    if (number % 2 == 0){
-        console.log("The number is even.");
-        break;
-    }
-    // if the number is odd
-    else if {
-        console.log(`${number} is too low;`);
-        break;
-    }
-    else (number % 3 == 0 ) {
-        console.log("The number is odd.");
-        break;
-    }
-}
+// UPPGIFT 5:5
+
+// nedan fungerade nästan
+// const number = Number(question("Enter a number: "));
+// let number = 3
+// while(number >= 2 ){
+//     let number = Number(question("Enter a number greater than 2: "))
+//     if (number <= 2){
+//         console.log(`${number} is too low.`);
+//         break;
+//     }
+//     else if(number % 2 == 0 ) {
+//         console.log(`${number} / 2 = ${number / 2 }.`);
+//     }
+//     else if(number % 2 == 1) {
+//         console.log(`${number} * 3 + 1 = ${number * 3 + 1 }.`);
+//     }
+// }
 
 // -------------------------------------------------
 
