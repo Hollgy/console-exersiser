@@ -1,22 +1,28 @@
 import { question } from 'readline-sync'
 
 
+
+
+
+
+
+
 // -------------------------------------------------
 // UPPGIFT 6A
 
-let text = ''
-for( let i=0; i<6; i++ ) {
-    for( let j=0; j<8; j++ ) {
-        if( (i + j) % 4 === 1)
-            text += '#'
-        else
-            text += '.'
-    }
-    text += '\n';
-}
-console.log(text);
+// let text = ''
+// for( let i=0; i<6; i++ ) {
+//     for( let j=0; j<8; j++ ) {
+//         if( (i + j) % 4 === 1)
+//             text += '#'
+//         else
+//             text += '.'
+//     }
+//     text += '\n';
+// }
+// console.log(text);
 
-
+// DRET
 
 
 
