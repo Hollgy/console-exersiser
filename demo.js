@@ -21,14 +21,12 @@ import { question } from 'readline-sync'
 
 // Uppgift 4e
 
-const orderOne = [
-    { customer: "Horatio", product: "T1", quantity: 1 }
-];
-console.log(orderOne);
-const orderTwo = {
+const orders = [
+    { customer: "Horatio", product: "T1", quantity: 1 },
     { customer: "Horatio", product: "T2", quantity: 2 }
-}
-console.log(orderTwo);
+];
+console.log(orders);
+
 
 
 // -------------------------------------------------
